@@ -2,6 +2,6 @@
 RewriteEngine on
 RewriteCond %{HTTPS} off
 RewriteCond %{HTTP:X-Forwarded-SSL} !on
-RewriteCond %{HTTP_HOST} ^edotgypsum\.aplikasiweb\.cloud$
-RewriteRule ^/?$ "https\:\/\/edotgypsum\.aplikasiweb\.cloud\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^Biyuk90\.Project\.cloud$
+RewriteRule ^/?$ "https\:\/\/Biyuk90\.Project\.cloud\/" [R=301,L]
 
